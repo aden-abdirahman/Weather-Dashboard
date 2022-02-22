@@ -10,6 +10,10 @@ body {
   background-color: #b8e2df;
 }
 
+input {
+  box-sizing: border-box;
+}
+
 .list-group-item {
   line-height: 0.5;
   border: none;
