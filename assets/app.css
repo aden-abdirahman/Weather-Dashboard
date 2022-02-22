@@ -1,1 +1,36 @@
+body {
+  background-color: #0a57537a;
+}
 
+.container-fluid {
+  padding: 20px;
+}
+
+.search-column {
+  background-color: #b8e2df;
+}
+
+.list-group-item {
+  line-height: 0.5;
+  border: none;
+}
+.card-body {
+  flex: auto;
+}
+
+.severe {
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+
+.moderate {
+  padding: 5px;
+  background-color: yellow;
+}
+
+.favorable {
+  padding: 5px;
+  background-color: green;
+  color: white;
+}
