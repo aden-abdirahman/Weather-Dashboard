@@ -166,17 +166,17 @@ const display5Day = function(weather){
 
        forecastEl.appendChild(weatherIcon);
 
-       let forecastTempEl = document.createElement("span");
-       forecastTempEl.classList = "card-body text-center";
-       forecastTempEl.textContent = dailyForecast.main.temp + " °F";
+       let forecastTemp = document.createElement("span");
+       forecastTemp.classList = "card-body text-center";
+       forecastTemp.textContent = "Temp: " + dailyForecast.main.temp + " °F";
 
-        forecastEl.appendChild(forecastTempEl);
+        forecastEl.appendChild(forecastTemp);
 
-       let forecastHumEl=document.createElement("span");
-       forecastHumEl.classList = "card-body text-center";
-       forecastHumEl.textContent = dailyForecast.main.humidity + "  %";
+       let forecastHumid=document.createElement("span");
+       forecastHumid.classList = "card-body text-center";
+       forecastHumid.textContent = "Humidity: " + dailyForecast.main.humidity + "  %";
 
-       forecastEl.appendChild(forecastHumEl);
+       forecastEl.appendChild(forecastHumid);
 
         forecastContainer.appendChild(forecastEl);
     }
