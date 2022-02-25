@@ -1,5 +1,4 @@
 # Weather-Dashboard
-# ReadMe Generator
    ![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=plastic)
 
   ## Table of contents:
